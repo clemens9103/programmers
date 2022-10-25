@@ -1,6 +1,7 @@
 from fractions import Fraction
 import numpy as np
 import math
+print("a")
 
 
 class programmers:
