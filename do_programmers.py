@@ -2,7 +2,7 @@ from fractions import Fraction
 import numpy as np
 import math
 print("안녕하세요!!!!!")
-
+print("a")
 class programmers:
 #1
     def plus(num1, num2):
