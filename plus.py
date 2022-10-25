@@ -8,5 +8,3 @@ if __name__ == "__main__":
     num1 = 1
     num2 = 2
     print(programmers.plus(num1,num2))
-    
-    ok
