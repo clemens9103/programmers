@@ -12,3 +12,8 @@
 1. git add test.py
 2. git comm -m "..."
 3. git push origin master --force
+4. Pull requetst 들어가서 New Pull request 클릭
+5. master 클릭
+6. create pull request 클릭
+7. create pull request 한번 더 클릭 
+8. Merge pull request 클릭 후 confirm merge 클릭
