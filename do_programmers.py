@@ -78,6 +78,13 @@ class programmers:
             answer = numbers
         return answer
     
+#8 
+    def Vergleich_Array(array, number):
+        answer = 0
+        for i in range(len(array)):
+            if number < array[i]:
+                answer += 1 
+        return answer
 
 #test code
 if __name__ == "__main__":
@@ -117,6 +124,10 @@ if __name__ == "__main__":
     print(programmers.Bruch_Summe(denum1, num1, denum2, num2))
     '''
     
+    #6 #7 #8
     array = [1,2,3,4,6]
+    number = 4
     print(programmers.Medianwert(array))
     print(programmers.Doppel_Array(array))
+    print(programmers.Vergleich_Array(array, number))
+
