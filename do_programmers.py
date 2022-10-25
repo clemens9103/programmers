@@ -1,8 +1,7 @@
 from fractions import Fraction
 import numpy as np
 import math
-print("a")
-
+print("안녕하세요")
 
 class programmers:
 #1
