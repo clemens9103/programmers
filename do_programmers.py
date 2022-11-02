@@ -92,6 +92,21 @@ class programmers:
             k = k - service
         answer = n * 12000 + k * 2000
         return answer
+
+#9
+    def consecutive_numbers(num, total):
+        answer = []
+        # 중간값 구하기
+        mid = int(total / num)
+        # 결과값 짝수인경우
+        if num % 2 == 0:
+            mid = (mid + 1)
+        # 시작 숫자 구하기
+        first = mid - int(num/2)
+        # 결과값 출력
+        answer = [first+i for i in range(num)]
+        print(answer)
+        return answer
 #test code
 if __name__ == "__main__":
     '''
@@ -136,7 +151,10 @@ if __name__ == "__main__":
     print(programmers.Medianwert(array))
     print(programmers.Doppel_Array(array))
     print(programmers.Vergleich_Array(array, number))
-    '''
+    
     n = 64 
     k = 6
     print(programmers.Service_Calculate(n,k))
+    '''
+      #9
+    print(programmers.consecutive_numbers(5,5))
