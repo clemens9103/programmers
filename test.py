@@ -2,4 +2,4 @@
 from do_programmers import programmers
 #클레스명 아래 있는 함수 호출 방법
 print(programmers.plus(1,2))
-#123
+#123123123
