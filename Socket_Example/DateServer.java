@@ -13,7 +13,6 @@ public class DateServer {
                     PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
                     // 현재 날짜 및 시간을 클라이언트에게 보냅니다.
                     out.println(new Date().toString());
-                    System.out.println("Nice to Meet you");
                 } catch (IOException e) {
                     System.err.println("Error handling client: " + e.getMessage());
                 }
